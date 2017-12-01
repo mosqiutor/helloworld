@@ -1,13 +1,13 @@
 #include <stdio.h>
 #inculde <stdlib.h>
-#include <strign.h>
+#include <string.h>
 #inculde <math.h>
 
-void math(char *assic, int *num)
+void math(char *assic, float *num)
 {
   int swap_temp = 0;
   
-  swap_temp  = atoi(assic);
+  swap_temp  = atof(assic);
   *num = swap_temp ;
   
 }
