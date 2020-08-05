@@ -7,6 +7,5 @@ int main(int argc, int **argv)
   i  =0;
   
   printf("hello wenzi");
-  printf("modify\n");
   return 0;
 }
